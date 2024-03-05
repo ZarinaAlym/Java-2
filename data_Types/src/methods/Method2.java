@@ -51,6 +51,27 @@ public static int kolichestvo(int num){
 // non-return method
     public static void sendMessage(String message){
         System.out.println("Message delivered");
+        System.out.println("__________________");
+
+        // String methods
+        String str= "school";
+        System.out.println(str.length()); //6
+        System.out.println(str.substring(1,3)); //ch
+        System.out.println(str.hashCode()); // -907977868
+        System.out.println(str.toUpperCase()); //SCHOOL
+
+
+        StringBuilder name= new StringBuilder("Zarina");
+        System.out.println(name);
+        System.out.println(name.append(1));
+        System.out.println(name.deleteCharAt(2));
+        System.out.println();
+
+
+
+
+
+
 
     }
 }
