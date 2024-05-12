@@ -1,7 +1,7 @@
 package codingbat;
 
-public class String2 {
+public class String3 {
     public static void main(String[] args) {
-        System.out.println("May");
+        System.out.println("9-may");
     }
 }
